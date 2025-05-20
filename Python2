@@ -1,0 +1,2 @@
+X = df.drop('satisfaction_score', axis=1)
+y = df['satisfaction_score']
