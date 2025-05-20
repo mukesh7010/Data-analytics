@@ -1,0 +1,6 @@
+import seaborn as sns
+
+corr = df.corr()
+sns.heatmap(corr[['satisfaction_score']].sort_values(by='satisfaction_score', ascending=False), annot=True)
+plt.title('Correlation with Satisfaction Score')
+plt.show()
