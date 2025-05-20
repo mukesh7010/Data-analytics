@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Load the data
+df = pd.read_csv('survey_data.csv')
+
+# Quick overview
+print(df.head())
+print(df.info())
+print(df.describe())
